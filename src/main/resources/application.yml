@@ -1,0 +1,19 @@
+auth-server-url: https://sso.maxkey.top/maxkey # 授权服务地址
+
+server:
+  port: 9001
+security:
+  oauth2:
+    client:
+      client-id: 19b746b4-032e-4763-9479-5abb1f1e23f6
+      client-secret: IhseMjMwMzIwMjExNDI0NDAyMjE6B9
+      scope: all
+      access-token-uri: ${auth-server-url}/oauth/v20/token
+      user-authorization-uri: ${auth-server-url}/oauth/v20/authorize
+    resource:
+      #token-info-uri: ${auth-server-url}/api/oauth/v20/me #检查令牌
+      user-info-uri: ${auth-server-url}/api/oauth/v20/me #用户信息
+
+spring:
+  main:
+    allow-bean-definition-overriding: true

@@ -1,0 +1,23 @@
+2021-03-23 15:57:01.606 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2c6973c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-23 15:57:02.846 default [main] INFO  o.m.s.o.SpringBootOauthClientApplication - No active profile set, falling back to default profiles: default
+2021-03-23 15:57:03.926 default [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b6a00492-583c-37ef-93f1-8643d5395ce2
+2021-03-23 15:57:03.970 default [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2c6973c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-23 15:57:05.141 default [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9001 (http)
+2021-03-23 15:57:05.154 default [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9001"]
+2021-03-23 15:57:05.154 default [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-23 15:57:05.154 default [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-03-23 15:57:05.375 default [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-03-23 15:57:05.376 default [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2513 ms
+2021-03-23 15:57:05.998 default [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-23 15:57:06.462 default [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: c4aaa8e1-b068-4a73-8ee4-ab7fec2c771c
+
+2021-03-23 15:57:06.570 default [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@403c3a01, org.springframework.security.web.context.SecurityContextPersistenceFilter@462e1e64, org.springframework.security.web.header.HeaderWriterFilter@17092fff, org.springframework.security.web.authentication.logout.LogoutFilter@11e355ca, org.springframework.security.oauth2.client.filter.OAuth2ClientAuthenticationProcessingFilter@2daf06fc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@49f40c00, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e5fd2b1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28237492, org.springframework.security.web.session.SessionManagementFilter@31e2232f, org.springframework.security.web.access.ExceptionTranslationFilter@58b91d57, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@47b11ec7]
+2021-03-23 15:57:07.641 default [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-23 15:57:07.665 default [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9001"]
+2021-03-23 15:57:07.715 default [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9001 (http) with context path ''
+2021-03-23 15:57:07.728 default [main] INFO  o.m.s.o.SpringBootOauthClientApplication - Started SpringBootOauthClientApplication in 8.048 seconds (JVM running for 8.78)
+2021-03-23 15:57:41.812 default [http-nio-9001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-23 15:57:41.814 default [http-nio-9001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-03-23 15:57:41.822 default [http-nio-9001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 8 ms
